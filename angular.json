@@ -50,7 +50,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "src"
               }
             ],
             "styles": [
@@ -109,7 +109,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "src"
               }
             ],
             "styles": [
