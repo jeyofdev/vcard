@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
+import { BiographyComponent } from '@components/content/biography/biography.component';
+import { NameComponent } from '@components/content/name/name.component';
+import { LayoutContentComponent } from '@components/layout/layout-content/layout-content.component';
 import { LayoutGlobalComponent } from '@components/layout/layout-global/layout-global.component';
-import { NameComponent } from '@components/name/name.component';
 
 @Component({
 	selector: 'app-root',
-	imports: [LayoutGlobalComponent, NameComponent],
+	imports: [LayoutGlobalComponent, LayoutContentComponent, NameComponent, BiographyComponent],
 	templateUrl: './app.component.html',
 	styleUrl: './app.component.scss',
 })
