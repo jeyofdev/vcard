@@ -2,6 +2,7 @@
 	"compileOnSave": false,
 	"compilerOptions": {
 		"outDir": "./dist/out-tsc",
+		"baseUrl": "./src",
 		"strict": true,
 		"noImplicitOverride": true,
 		"noPropertyAccessFromIndexSignature": true,
@@ -14,7 +15,11 @@
 		"moduleResolution": "bundler",
 		"importHelpers": true,
 		"target": "ES2022",
-		"module": "ES2022"
+		"module": "ES2022",
+		"lib": ["ES2022", "dom"],
+		"paths": {
+			"@components/*": ["app/components/*"]
+		}
 	},
 	"angularCompilerOptions": {
 		"enableI18nLegacyMessageIdFormat": false,
