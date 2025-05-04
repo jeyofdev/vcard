@@ -8,7 +8,6 @@ import { JsonDataService } from '@services/json-data.service';
 	selector: 'app-hard-skills',
 	imports: [ContentTitleComponent],
 	templateUrl: './hard-skills.component.html',
-	styleUrl: './hard-skills.component.scss',
 })
 export class HardSkillsComponent {
 	private _dataService = inject(JsonDataService);
