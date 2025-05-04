@@ -1,6 +1,7 @@
 {
   "name": "vcard",
   "version": "0.0.0",
+  "description": "    This project is my interactive digital business card, built to showcase my developer profile in a clean and modern",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open --port 3000",
