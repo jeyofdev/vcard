@@ -4,13 +4,14 @@
   "description": "    This project is my interactive digital business card, built to showcase my developer profile in a clean and modern",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --open --port 3000",
+    "start": "ng serve --open --port 4200",
     "build": "ng build --configuration=production --base-href=./",
     "watch": "ng build --watch --configuration development",
     "lint": "echo '🔍 Exécution de Biome...' && bunx biome lint --write ./src",
     "format": "echo '✨ Formatage du code avec Biome...' && bunx biome format --write ./src",
     "check": "bunx biome check --write ./src",
-    "prepare": "echo '🚀 Préparation des hooks Husky...' && husky install"
+    "prepare": "echo '🚀 Préparation des hooks Husky...' && husky install",
+    "deploy": "rm -rf dist && ng build --configuration=production --base-href=./ && vercel --prod"
   },
   "private": true,
   "dependencies": {
