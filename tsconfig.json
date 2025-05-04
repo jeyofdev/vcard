@@ -19,7 +19,9 @@
 		"lib": ["ES2022", "dom"],
 		"paths": {
 			"@components/*": ["app/components/*"],
-			"@pipes/*": ["app/pipes/*"]
+			"@pipes/*": ["app/pipes/*"],
+			"@services/*": ["app/services/*"],
+			"@models/*": ["app/models/*"]
 		}
 	},
 	"angularCompilerOptions": {
