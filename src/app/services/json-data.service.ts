@@ -18,4 +18,8 @@ export class JsonDataService {
 	public findAllSoftSkills(): Observable<SoftSkills[]> {
 		return this._httpClient.get<Data>('/assets/data/data.json').pipe(map((datas: Data) => datas.softSkills));
 	}
+
+	public findDescription(): Observable<string[]> {
+		return this._httpClient.get<Data>('/assets/data/data.json').pipe(map((datas: Data) => datas.description));
+	}
 }
