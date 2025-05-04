@@ -5,14 +5,13 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open --port 4200",
-    "build": "ng build",
+    "build": "ng build --configuration=production",
     "watch": "ng build --watch --configuration development",
     "lint": "echo '🔍 Exécution de Biome...' && bunx biome lint --write ./src",
     "format": "echo '✨ Formatage du code avec Biome...' && bunx biome format --write ./src",
     "check": "bunx biome check --write ./src",
     "prepare": "echo '🚀 Préparation des hooks Husky...' && husky install",
-    "deploy": "rm -rf dist && ng build --configuration=production --base-href=./ && vercel --prod",
-    "vercel-build": "ng build --configuration=production --base-href=/"
+    "deploy": "rm -rf dist && ng build --configuration=production && vercel --prod"
   },
   "private": true,
   "dependencies": {
