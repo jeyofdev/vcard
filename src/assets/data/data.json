@@ -1,4 +1,9 @@
 {
+  "description": [
+    "Passionné, curieux et motivé par les défis technologiques, je suis enthousiaste à l'idée d’apporter mes compétences et de contribuer à des projets innovants en collaboration avec vos équipes de passionnés pour construire des solutions logicielles d'avenir, sécurisées et scalables.",
+    "Spécialisé en développement web fullstack, ma stack technique principale comprend JavaScript, TypeScript, React, Angular en front-end, ainsi que Node.js, GraphQL, Java, et Spring en back-end.",
+    "Je suis actuellement à la recherche d’une alternance avec un rythme de 2 semaines en entreprise et 1 semaine en cours ou d'un CDI."
+  ],
   "hardSkills": [
     {
       "id": "1",
