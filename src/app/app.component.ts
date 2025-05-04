@@ -3,6 +3,7 @@ import { BiographyComponent } from '@components/content/biography/biography.comp
 import { ContactComponent } from '@components/content/contact/contact.component';
 import { HardSkillsComponent } from '@components/content/hard-skills/hard-skills.component';
 import { NameComponent } from '@components/content/name/name.component';
+import { SoftSkillsComponent } from '@components/content/soft-skills/soft-skills.component';
 import { LayoutContentComponent } from '@components/layout/layout-content/layout-content.component';
 import { LayoutGlobalComponent } from '@components/layout/layout-global/layout-global.component';
 
@@ -15,6 +16,7 @@ import { LayoutGlobalComponent } from '@components/layout/layout-global/layout-g
 		BiographyComponent,
 		ContactComponent,
 		HardSkillsComponent,
+		SoftSkillsComponent,
 	],
 	templateUrl: './app.component.html',
 	styleUrl: './app.component.scss',

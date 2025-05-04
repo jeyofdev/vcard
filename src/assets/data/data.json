@@ -1,94 +1,116 @@
 {
-	"hardSkills": [
-		{
-			"id": "1",
-			"name": "Javascript",
-			"imgFileName": "javascript.svg"
-		},
-		{
-			"id": "1",
-			"name": "Typescript",
-			"imgFileName": "typescript.svg"
-		},
-		{
-			"id": "3",
-			"name": "React",
-			"imgFileName": "react.svg"
-		},
-		{
-			"id": "4",
-			"name": "Angular",
-			"imgFileName": "angular.svg"
-		},
-		{
-			"id": "5",
-			"name": "Html",
-			"imgFileName": "html.svg"
-		},
-		{
-			"id": "6",
-			"name": "Css",
-			"imgFileName": "css.svg"
-		},
-		{
-			"id": "7",
-			"name": "Sass",
-			"imgFileName": "sass.svg"
-		},
-		{
-			"id": "8",
-			"name": "NodeJs",
-			"imgFileName": "node-js.svg"
-		},
-		{
-			"id": "9",
-			"name": "GraphQl",
-			"imgFileName": "graphQl.svg"
-		},
-		{
-			"id": "10",
-			"name": "Apollo",
-			"imgFileName": "apollo.svg"
-		},
-		{
-			"id": "11",
-			"name": "Java",
-			"imgFileName": "java.svg"
-		},
-		{
-			"id": "12",
-			"name": "Spring",
-			"imgFileName": "spring.svg"
-		},
-		{
-			"id": "13",
-			"name": "Mysql",
-			"imgFileName": "mysql.svg"
-		},
-		{
-			"id": "14",
-			"name": "Postgresql",
-			"imgFileName": "postgresql.svg"
-		},
-		{
-			"id": "15",
-			"name": "MongoDb",
-			"imgFileName": "mongodb.svg"
-		},
-		{
-			"id": "16",
-			"name": "Docker",
-			"imgFileName": "docker.svg"
-		},
-		{
-			"id": "17",
-			"name": "Git",
-			"imgFileName": "git.svg"
-		},
-		{
-			"id": "18",
-			"name": "Github",
-			"imgFileName": "github.svg"
-		}
-	]
+  "hardSkills": [
+    {
+      "id": "1",
+      "name": "Javascript",
+      "imgFileName": "javascript.svg"
+    },
+    {
+      "id": "1",
+      "name": "Typescript",
+      "imgFileName": "typescript.svg"
+    },
+    {
+      "id": "3",
+      "name": "React",
+      "imgFileName": "react.svg"
+    },
+    {
+      "id": "4",
+      "name": "Angular",
+      "imgFileName": "angular.svg"
+    },
+    {
+      "id": "5",
+      "name": "Html",
+      "imgFileName": "html.svg"
+    },
+    {
+      "id": "6",
+      "name": "Css",
+      "imgFileName": "css.svg"
+    },
+    {
+      "id": "7",
+      "name": "Sass",
+      "imgFileName": "sass.svg"
+    },
+    {
+      "id": "8",
+      "name": "NodeJs",
+      "imgFileName": "node-js.svg"
+    },
+    {
+      "id": "9",
+      "name": "GraphQl",
+      "imgFileName": "graphQl.svg"
+    },
+    {
+      "id": "10",
+      "name": "Apollo",
+      "imgFileName": "apollo.svg"
+    },
+    {
+      "id": "11",
+      "name": "Java",
+      "imgFileName": "java.svg"
+    },
+    {
+      "id": "12",
+      "name": "Spring",
+      "imgFileName": "spring.svg"
+    },
+    {
+      "id": "13",
+      "name": "Mysql",
+      "imgFileName": "mysql.svg"
+    },
+    {
+      "id": "14",
+      "name": "Postgresql",
+      "imgFileName": "postgresql.svg"
+    },
+    {
+      "id": "15",
+      "name": "MongoDb",
+      "imgFileName": "mongodb.svg"
+    },
+    {
+      "id": "16",
+      "name": "Docker",
+      "imgFileName": "docker.svg"
+    },
+    {
+      "id": "17",
+      "name": "Git",
+      "imgFileName": "git.svg"
+    },
+    {
+      "id": "18",
+      "name": "Github",
+      "imgFileName": "github.svg"
+    }
+  ],
+  "softSkills": [
+    {
+      "id": "1",
+      "name": "Capacité d’adaptation."
+    },
+    {
+      "id": "2",
+      "name": "Autonomie et/ou Travail en équipe."
+    },
+    {
+      "id": "3",
+      "name": "Rigueur."
+    },
+    {
+      "id": "4",
+      "name": "En veille permanente."
+    },
+    {
+      "id": "5",
+      "name": "Très motivé."
+    }
+  ]
 }
