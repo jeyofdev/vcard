@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open --port 3000",
-    "build": "ng build",
+    "build": "ng build --configuration=production --base-href=./",
     "watch": "ng build --watch --configuration development",
     "lint": "echo '🔍 Exécution de Biome...' && bunx biome lint --write ./src",
     "format": "echo '✨ Formatage du code avec Biome...' && bunx biome format --write ./src",
