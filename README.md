@@ -23,7 +23,7 @@
 <hr>
 
 <p>
-    This project is my interactive digital business card, built to showcase my developer profile in a clean and modern.
+    This project is my interactive digital vcard, built to showcase my developer profile in a clean and modern.
 </p>
 
 ## Prerequisites
